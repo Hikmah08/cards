@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
 }
-
 body {
   min-height: 100vh;
   width: 100vw;
@@ -19,25 +18,21 @@ body {
   background-size: cover;
   background-position: center;
 }
-
 p,
 i {
   color: #939393;
   font-size: 14px;
 }
-
 h1 {
   font-size: 24px;
   font-weight: 700;
 }
-
 h1,
 h2,
 nav a {
   color: #333333;
   font-size: 20px;
 }
-
 .card {
   width: 300px;
   display: flex;
@@ -46,12 +41,10 @@ nav a {
   border-color: rgb(240, 248, 255);
   border-radius: 5px;
 }
-
 .profile img {
   border-radius: 50%;
   width: 100px;
 }
-
 .profile {
   display: flex;
   flex-direction: column;
@@ -68,7 +61,6 @@ nav a {
     #ffffff 100%
   );
 }
-
 .about {
   padding: 0 15px;
   display: flex;
@@ -78,34 +70,33 @@ nav a {
   background-position-x: center;
   background-position: center;
 }
-
 .about-content {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
 .social-media {
   display: flex;
   gap: 40px;
 }
-
 .social-media i {
   width: 10px;
 }
-
 nav {
   padding: 40px 15px 0 15px;
   display: flex;
   justify-content: space-between;
   background-color: white;
 }
-
 nav a {
   text-decoration: none;
 }
-
 #active-nav {
   border-bottom: #07aff1 2px solid;
   padding-bottom: 10px;
+}
+a:hover{
+  border-bottom: #07aff1 2px solid;
+  padding-bottom: 10px;
+  color:#07aff1
 }
